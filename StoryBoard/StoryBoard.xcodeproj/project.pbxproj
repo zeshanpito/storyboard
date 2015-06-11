@@ -14,6 +14,13 @@
 		3131C7E01B2965C90082359D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3131C7DF1B2965C90082359D /* Images.xcassets */; };
 		3131C7E31B2965C90082359D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3131C7E11B2965C90082359D /* LaunchScreen.xib */; };
 		3131C7EF1B2965C90082359D /* StoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3131C7EE1B2965C90082359D /* StoryBoardTests.m */; };
+		31FB0D091B296FAB0027D909 /* CoupleTime.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB0D031B296FAB0027D909 /* CoupleTime.xcassets */; };
+		31FB0D0A1B296FAB0027D909 /* General.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB0D041B296FAB0027D909 /* General.xcassets */; };
+		31FB0D0B1B296FAB0027D909 /* Home.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB0D051B296FAB0027D909 /* Home.xcassets */; };
+		31FB0D0C1B296FAB0027D909 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB0D061B296FAB0027D909 /* Images.xcassets */; };
+		31FB0D0D1B296FAB0027D909 /* Registration.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB0D071B296FAB0027D909 /* Registration.xcassets */; };
+		31FB0D0E1B296FAB0027D909 /* Reminder.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB0D081B296FAB0027D909 /* Reminder.xcassets */; };
+		31FB0D171B2975530027D909 /* RegistrationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB0D161B2975530027D909 /* RegistrationTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,14 @@
 		3131C7E81B2965C90082359D /* StoryBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3131C7ED1B2965C90082359D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3131C7EE1B2965C90082359D /* StoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardTests.m; sourceTree = "<group>"; };
+		31FB0D031B296FAB0027D909 /* CoupleTime.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CoupleTime.xcassets; sourceTree = "<group>"; };
+		31FB0D041B296FAB0027D909 /* General.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = General.xcassets; sourceTree = "<group>"; };
+		31FB0D051B296FAB0027D909 /* Home.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Home.xcassets; sourceTree = "<group>"; };
+		31FB0D061B296FAB0027D909 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31FB0D071B296FAB0027D909 /* Registration.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Registration.xcassets; sourceTree = "<group>"; };
+		31FB0D081B296FAB0027D909 /* Reminder.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Reminder.xcassets; sourceTree = "<group>"; };
+		31FB0D151B2975530027D909 /* RegistrationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationTableViewCell.h; sourceTree = "<group>"; };
+		31FB0D161B2975530027D909 /* RegistrationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,7 @@
 		3131C7D11B2965C80082359D /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				31FB0D0F1B2972D50027D909 /* RegistrationCell */,
 				3131C7D61B2965C90082359D /* AppDelegate.h */,
 				3131C7D71B2965C90082359D /* AppDelegate.m */,
 				3131C7D91B2965C90082359D /* ViewController.h */,
@@ -96,6 +112,7 @@
 		3131C7D21B2965C90082359D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				31FB0D021B296FAB0027D909 /* Assets */,
 				3131C7D31B2965C90082359D /* Info.plist */,
 				3131C7D41B2965C90082359D /* main.m */,
 			);
@@ -117,6 +134,28 @@
 				3131C7ED1B2965C90082359D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31FB0D021B296FAB0027D909 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				31FB0D031B296FAB0027D909 /* CoupleTime.xcassets */,
+				31FB0D041B296FAB0027D909 /* General.xcassets */,
+				31FB0D051B296FAB0027D909 /* Home.xcassets */,
+				31FB0D061B296FAB0027D909 /* Images.xcassets */,
+				31FB0D071B296FAB0027D909 /* Registration.xcassets */,
+				31FB0D081B296FAB0027D909 /* Reminder.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		31FB0D0F1B2972D50027D909 /* RegistrationCell */ = {
+			isa = PBXGroup;
+			children = (
+				31FB0D151B2975530027D909 /* RegistrationTableViewCell.h */,
+				31FB0D161B2975530027D909 /* RegistrationTableViewCell.m */,
+			);
+			name = RegistrationCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +238,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FB0D0A1B296FAB0027D909 /* General.xcassets in Resources */,
 				3131C7DE1B2965C90082359D /* Main.storyboard in Resources */,
+				31FB0D0C1B296FAB0027D909 /* Images.xcassets in Resources */,
+				31FB0D0B1B296FAB0027D909 /* Home.xcassets in Resources */,
+				31FB0D0D1B296FAB0027D909 /* Registration.xcassets in Resources */,
 				3131C7E31B2965C90082359D /* LaunchScreen.xib in Resources */,
+				31FB0D091B296FAB0027D909 /* CoupleTime.xcassets in Resources */,
+				31FB0D0E1B296FAB0027D909 /* Reminder.xcassets in Resources */,
 				3131C7E01B2965C90082359D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FB0D171B2975530027D909 /* RegistrationTableViewCell.m in Sources */,
 				3131C7DB1B2965C90082359D /* ViewController.m in Sources */,
 				3131C7D81B2965C90082359D /* AppDelegate.m in Sources */,
 				3131C7D51B2965C90082359D /* main.m in Sources */,
@@ -416,6 +462,7 @@
 				3131C7F41B2965C90082359D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3131C7F51B2965C90082359D /* Build configuration list for PBXNativeTarget "StoryBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +471,7 @@
 				3131C7F71B2965C90082359D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef NS_ENUM (NSInteger, PIOTextBoxType) {
+    PIOTextBoxTypeFirstName,
+    PIOTextBoxTypeSurname,
+    PIOTextBoxTypeEmail,
+    PIOTextBoxTypePassword
+};
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 
 
 @end
